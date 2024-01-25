@@ -1,9 +1,10 @@
 import { Stack } from "@mui/material";
 import { categories } from "../utils/constants";
 import { createElement } from "react";
-const selectedCategory = "New";
 
-export default () => {
+export default ({ selectedCategory, setSelectedCategory }: any) => {
+  const handleSetCategory = (cat: string) => setSelectedCategory(cat);
+
   return (
     <Stack
       direction="row"
@@ -18,6 +19,7 @@ export default () => {
         return (
           <button
             className="category-btn"
+            onClick={() => handleSetCategory(category.name)}
             style={{
               background:
                 category.name === selectedCategory ? "#FC1503" : "white",

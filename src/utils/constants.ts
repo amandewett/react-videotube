@@ -17,7 +17,7 @@ export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories: Category[] = [
   { name: "New", icon: HomeIcon },
-  { name: "JS Mastery", icon: CodeIcon },
+  { name: "NodeJS", icon: CodeIcon },
   { name: "Coding", icon: CodeIcon },
   { name: "ReactJS", icon: CodeIcon },
   { name: "NextJS", icon: CodeIcon },
@@ -35,11 +35,11 @@ export const categories: Category[] = [
   { name: "Crypto", icon: DeveloperModeIcon },
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
-export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+export const demoThumbnailUrl =
+  "https://i.pinimg.com/originals/1c/54/f7/1c54f7b06d7723c21afc5035bf88a5ef.png";
+export const demoChannelUrl = "/channel/UChxer_uGnMPaa9_c0KbrqjQ";
+export const demoVideoUrl = "/video/cNfINi5CNbY";
+export const demoChannelTitle = "Aman Dewett";
+export const demoVideoTitle = "Google Keynote (Google I/O ‘23)";
 export const demoProfilePicture =
-  "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
+  "https://yt3.ggpht.com/_zOqLc7bxIGXgNCHLxWeHxWv9pebyD_p0aWsSx0p2Io5QJIZxnBS9tF66VaKDMIu2fsdVHY_=s108-c-k-c0x00ffffff-no-rj";
