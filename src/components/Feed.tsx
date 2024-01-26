@@ -15,12 +15,12 @@ const Feed = () => {
       );
       setVideos(data.items);
     }
-    // getVideos();
-    setVideos(demoVideos);
+    getVideos();
+    // setVideos(demoVideos);
   }, [fetchFromAPI, selectedCategory, demoVideos]);
 
   return (
-    <Stack sx={{ flexDirection: { sx: "column", md: "row" }, pt: 0 }}>
+    <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
       <Box
         sx={{
           height: { sx: "auto", md: "92vh" },

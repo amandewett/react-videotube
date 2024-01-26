@@ -2,6 +2,7 @@ import { Box, Stack } from "@mui/material";
 import { VideoCard, ChannelCard } from "./";
 
 export default ({ videos, direction }: any) => {
+  if (!videos?.length) return "Loading...";
   return (
     <Stack
       direction={direction || "row"}

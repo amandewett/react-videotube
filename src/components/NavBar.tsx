@@ -10,7 +10,7 @@ export const NavBar = () => {
       alignItems="center"
       p={2}
       sx={{
-        position: "sticky",
+        position: "fixed",
         background: "#000",
         top: 0,
       }}
@@ -20,6 +20,7 @@ export const NavBar = () => {
         style={{
           display: "flex",
           alignItems: "center",
+          background: "#000",
         }}
       >
         <img src={logo} alt="logo" height={45} />

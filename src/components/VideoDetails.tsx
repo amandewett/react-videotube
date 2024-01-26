@@ -23,10 +23,10 @@ const VideoDetail = () => {
         `search?part=snippet&relatedToVideoId=${id}&type=video`
       ).then((data) => setVideos(data.items));
     };
-    // fetchResults();
+    fetchResults();
 
-    setVideoDetail(DEMO_VIDEO_DETAILS.items[0]);
-    setVideos(DEMO_RELATED_VIDEOS.items);
+    // setVideoDetail(DEMO_VIDEO_DETAILS.items[0]);
+    // setVideos(DEMO_RELATED_VIDEOS.items);
   }, [id]);
 
   if (!videoDetail?.snippet) return <Loader />;

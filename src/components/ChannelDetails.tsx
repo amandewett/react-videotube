@@ -20,9 +20,9 @@ const ChannelDetails = () => {
         `search?channelId=${channelId}&part=snippet&order=date`
       ).then((data) => setVideos(data?.items));
     };
-    // fetchResults();
-    setChannelDetails(CHANNEL_DETAILS.items[0]);
-    setVideos(CHANNED_VIDEOS.items);
+    fetchResults();
+    // setChannelDetails(CHANNEL_DETAILS.items[0]);
+    // setVideos(CHANNED_VIDEOS.items);
   }, [channelId, CHANNEL_DETAILS, CHANNED_VIDEOS]);
 
   return (

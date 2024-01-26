@@ -18,7 +18,7 @@ export default ({
   return (
     <Card
       sx={{
-        width: { md: "320px", xs: "100%" },
+        width: { xs: "100%", sm: "358px", md: "320px" },
         height: 300,
         backgroundColor: "#0f0f0f",
         boxShadow: "none",
@@ -27,7 +27,7 @@ export default ({
       <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
         <CardMedia
           image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
-          sx={{ width: 358, height: 180 }}
+          sx={{ width: { xs: "100%", sm: "358px", md: "320px" }, height: 180 }}
         />
       </Link>
       <CardContent>
