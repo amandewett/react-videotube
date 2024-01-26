@@ -20,7 +20,7 @@ const Feed = () => {
   }, [fetchFromAPI, selectedCategory, demoVideos]);
 
   return (
-    <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
+    <Stack sx={{ flexDirection: { sx: "column", md: "row" }, pt: 0 }}>
       <Box
         sx={{
           height: { sx: "auto", md: "92vh" },

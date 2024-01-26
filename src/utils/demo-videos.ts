@@ -1704,3 +1704,698 @@ export const videos = [
     },
   },
 ];
+
+export const DEMO_VIDEO_DETAILS = {
+  kind: "youtube#videoListResponse",
+  items: [
+    {
+      kind: "youtube#video",
+      id: "ENrzD9HAZK4",
+      snippet: {
+        publishedAt: "2020-05-21T17:16:56Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "Node.js Ultimate Beginner’s Guide in 7 Easy Steps",
+        description:
+          "Why learn Node.js in 2020? Master the fundamentals of Node in 7 easy steps, then build a fullstack web app and deploy it to a cloud server. Follow along in the full article: https://fireship.io/courses/javascript/node-basics/\n\n1. What is Node?\n2. How do you install Node?\n3. Hello World\n4. Know the Runtime\n5. Events\n6. File System\n7. Modules\n8. Build & Deploy \n\nNode https://nodejs.org\n\n#nodejs #javascript #tutorial \n\nInstall the quiz app 🤓\n\niOS https://itunes.apple.com/us/app/fireship/id1462592372?mt=8\nAndroid https://play.google.com/store/apps/details?id=io.fireship.quizapp\n\nUpgrade to Fireship PRO at https://fireship.io/pro\nUse code lORhwXd2 for 25% off your first payment. \n\nMy VS Code Theme\n\n- Atom One Dark \n- vscode-icons\n- Fira Code Font",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/ENrzD9HAZK4/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/ENrzD9HAZK4/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/ENrzD9HAZK4/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+          standard: {
+            url: "https://i.ytimg.com/vi/ENrzD9HAZK4/sddefault.jpg",
+            width: 640,
+            height: 480,
+          },
+          maxres: {
+            url: "https://i.ytimg.com/vi/ENrzD9HAZK4/maxresdefault.jpg",
+            width: 1280,
+            height: 720,
+          },
+        },
+        channelTitle: "Fireship",
+        tags: [
+          "webdev",
+          "app development",
+          "lesson",
+          "tutorial",
+          "node",
+          "deno",
+          "node.js",
+          "nodejs basics",
+          "nodejs tutorial",
+          "php",
+          "fullstack web",
+          "http",
+          "gcp",
+        ],
+        categoryId: "28",
+        liveBroadcastContent: "none",
+        localized: {
+          title: "Node.js Ultimate Beginner’s Guide in 7 Easy Steps",
+          description:
+            "Why learn Node.js in 2020? Master the fundamentals of Node in 7 easy steps, then build a fullstack web app and deploy it to a cloud server. Follow along in the full article: https://fireship.io/courses/javascript/node-basics/\n\n1. What is Node?\n2. How do you install Node?\n3. Hello World\n4. Know the Runtime\n5. Events\n6. File System\n7. Modules\n8. Build & Deploy \n\nNode https://nodejs.org\n\n#nodejs #javascript #tutorial \n\nInstall the quiz app 🤓\n\niOS https://itunes.apple.com/us/app/fireship/id1462592372?mt=8\nAndroid https://play.google.com/store/apps/details?id=io.fireship.quizapp\n\nUpgrade to Fireship PRO at https://fireship.io/pro\nUse code lORhwXd2 for 25% off your first payment. \n\nMy VS Code Theme\n\n- Atom One Dark \n- vscode-icons\n- Fira Code Font",
+        },
+        defaultAudioLanguage: "en",
+      },
+      contentDetails: {
+        duration: "PT16M20S",
+        dimension: "2d",
+        definition: "hd",
+        caption: "false",
+        licensedContent: true,
+        contentRating: {},
+        projection: "rectangular",
+      },
+      statistics: {
+        viewCount: "1409519",
+        likeCount: "46683",
+        favoriteCount: "0",
+        commentCount: "737",
+      },
+    },
+  ],
+  pageInfo: { totalResults: 1, resultsPerPage: 1 },
+};
+
+export const DEMO_RELATED_VIDEOS = {
+  kind: "youtube#searchListResponse",
+  nextPageToken:
+    "CBQSDRILRU5yekQ5SEFaSzQYACq3ETJzNkw2d3lDRFFyX0RBb0Q4ajRBQ2c3Q1Bnc0lvY1c0MjdhTHpJU0FBUW9EOGo0QUNnM0NQZ29JM3VYSWhwYnZuNmhPQ2dQeVBnQUtEc0ktQ3dqNTgtUHUtdnlMa3I4QkNnUHlQZ0FLRGNJLUNnaWJzUFdOcjVUSTJIb0tBX0ktQUFvTndqNEtDUEg1aG9laDZQRHdjZ29EOGo0QUNnM0NQZ29JbnRiNGlfSDgzSWw4Q2dQeVBnQUtEY0ktQ2dqWmpLckw1LW1qdGtvS0FfSS1BQW9Od2o0S0NKM0p5NVNObmFmR1FBb0Q4ajRBQ2c3Q1Bnc0k2OV9RaF9MbXFZajVBUW9EOGo0QUNnN0NQZ3NJcWJXQzJzRHUtcU9rQVFvRDhqNEFDZzdDUGdzSTdlajJyOXl2bF96d0FRb0Q4ajRBQ2czQ1Bnb0lpODdsdzkzOWw4cFlDZ1B5UGdBS0RjSS1DZ2lQXy1xVXA2TDVnUlVLQV9JLUFBb053ajRLQ0lpQXFPZkg0dlRIQXdvRDhqNEFDZzNDUGdvSTJPaVVtTHUwazZNLUNnUHlQZ0FLRGNJLUNnaVVxY0d6czdDanRYVUtBX0ktQUFvTndqNEtDSUM2dFl2dzBOemRSQW9EOGo0QUNnM0NQZ29JenZTSzlybWxxWTlLQ2dQeVBnQUtEY0ktQ2dqNHYtX2E2cHVjamtzS0FfSS1BQW9Od2o0S0NJU0l6Ny1udk82TlhBb0Q4ajRBQ2h1YVB4Z0tGazk4TVRjM05EWXhNRFV5TURnMU1EQTFNakV3TlRrS0c1b19HQW9XVDN3eE5qSXhPVFl4TXpVek5qSTFOalE1TVRZeU1nb2FtajhYQ2hWUGZETXdOVEE1TVRZNU1URTVPRE0xTXpFeU1EWUtHcG9fRndvVlQzdzNNakl6T0RrME16QXhOVGd5TURZME1qazRDaHVhUHhnS0ZrOThNVEkxTlRnNE9UUXlNakV6TWpJMU56ZzFOVEVLRzVvX0dBb1dUM3d4TURjNU5EWXpNVEU1TXpZM05UTXdNelk0TUFvYW1qOFhDaFZQZkRRek1EQTJOVEV4TWpRek1qVXdOell3TURnS0dab19GZ29VVDN3ME5EWTBPVE0wTURBNU56QXlNakkxTmpFS0c1b19HQW9XVDN3eE5qSTNOakUyTnpVeU1USTJNekF5TnpVME9Rb2FtajhYQ2hWUGZEY3hPRGcwTlRFek1ESXdPVEl3TURZM05qQUtHNW9fR0FvV1Qzd3hNREF5TWpjM05EWXlOemN3TXpRNE1EVTJNd29ibWo4WUNoWlBmREV6TVRNNE5qZ3pOVGszTXpreE5qQXlNREUwQ2hxYVB4Y0tGVTk4TlRjME1EazBNREU1TXpjMk5URTNOVEE0TlFvYm1qOFlDaFpQZkRFNE1qQTVOemswTURreU5ESTJNVEV6TURrMkNodWFQeGdLRms5OE1UZ3lORGs0TWpBMU5EazVORE13TWpFNE16TUtHNW9fR0FvV1Qzd3hOekk1TmpFMk9UZ3dOVGMxTlRFeU1qYzJPQW9ibWo4WUNoWlBmREU0TXpZd09EY3lPRGd4T1RJek56YzBORFE0Q2h1YVB4Z0tGazk4TVRVNE16VXlNalU0TkRRMU9EZzBOemsyTWpFS0c1b19HQW9XVDN3eE1qSTNNRE0wTURZNE5qTTVPVFExTlRnM09Rb2JtajhZQ2haUGZERXpPRFEwTWpjMk1qYzVORFU1TlRBNU1UWTBDaHVhUHhnS0ZrOThNVFV4T1RFMk5qY3pPVGt6TkRVNE56azBOellLR3BvX0Z3b1ZUM3cwT0RReE1qVXpOVEV4TXpjMk16UTBNVEl4Q2h1YVB4Z0tGazk4TVRVME9EQTRPVE15TWpNeU56Y3pPVGN4TURBS0FfSS1BQW9EOGo0QUVoY0FBZ1FHQ0FvTURoQVNGQllZR2h3ZUlDSWtKaWhBUVJvRUNBQVFBUm9FQ0FJUUF4b0VDQVFRQlJvRUNBWVFCeG9FQ0FnUUNSb0VDQW9RQ3hvRUNBd1FEUm9FQ0E0UUR4b0VDQkFRRVJvRUNCSVFFeG9FQ0JRUUZSb0VDQllRRnhvRUNCZ1FHUm9FQ0JvUUd4b0VDQndRSFJvRUNCNFFIeG9FQ0NBUUlSb0VDQ0lRSXhvRUNDUVFKUm9FQ0NZUUp4b0VDQ2dRS1JvRUNDZ1FLaG9FQ0NnUUt4b0VDQ2dRTEJvRUNDZ1FMUm9FQ0NnUUxob0VDQ2dRTHhvRUNDZ1FNQm9FQ0NnUU1Sb0VDQ2dRTWhvRUNDZ1FNeG9FQ0NnUU5Cb0VDQ2dRTlJvRUNDZ1FOaG9FQ0NnUU54b0VDQ2dRT0JvRUNDZ1FPUm9FQ0NnUU9ob0VDQ2dRT3hvRUNDZ1FQQm9FQ0NnUVBSb0VDQ2dRUGhvRUNDZ1FQeG9FQ0VBUUtSb0VDRUFRS2hvRUNFQVFLeG9FQ0VBUUxCb0VDRUFRTFJvRUNFQVFMaG9FQ0VBUUx4b0VDRUFRTUJvRUNFQVFNUm9FQ0VBUU1ob0VDRUFRTXhvRUNFQVFOQm9FQ0VBUU5Sb0VDRUFRTmhvRUNFQVFOeG9FQ0VBUU9Cb0VDRUFRT1JvRUNFQVFPaG9FQ0VBUU94b0VDRUFRUEJvRUNFQVFQUm9FQ0VBUVBob0VDRUFRUHhvRUNFRVFLUm9FQ0VFUUtob0VDRUVRS3hvRUNFRVFMQm9FQ0VFUUxSb0VDRUVRTGhvRUNFRVFMeG9FQ0VFUU1Cb0VDRUVRTVJvRUNFRVFNaG9FQ0VFUU14b0VDRUVRTkJvRUNFRVFOUm9FQ0VFUU5ob0VDRUVRTnhvRUNFRVFPQm9FQ0VFUU9Sb0VDRUVRT2hvRUNFRVFPeG9FQ0VFUVBCb0VDRUVRUFJvRUNFRVFQaG9FQ0VFUVB5b1hBQUlFQmdnS0RBNFFFaFFXR0JvY0hpQWlKQ1lvUUVFag93YXRjaC1uZXh0LWZlZWQ%3D",
+  pageInfo: { totalResults: 150, resultsPerPage: 20 },
+  items: [
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "gAkwW2tuIqE" },
+      snippet: {
+        publishedAt: "2021-01-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "Learn Docker in 7 Easy Steps - Full Beginner's Tutorial",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/gAkwW2tuIqE/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/gAkwW2tuIqE/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/gAkwW2tuIqE/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2021-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "TlB_eWDSMt4" },
+      snippet: {
+        publishedAt: "2019-01-25T00:00:00Z",
+        channelId: "UCWv7vMbMWH4-V0ZXdmDpPBA",
+        title: "Node.js Tutorial for Beginners: Learn Node in 1 Hour",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/TlB_eWDSMt4/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/TlB_eWDSMt4/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/TlB_eWDSMt4/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Programming with Mosh",
+        liveBroadcastContent: "none",
+        publishTime: "2019-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "vyQv563Y-fk" },
+      snippet: {
+        publishedAt: "2023-12-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "You probably won\u2019t survive 2024... Top 10 Tech Trends",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/vyQv563Y-fk/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/vyQv563Y-fk/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/vyQv563Y-fk/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2023-12-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "erEgovG9WBs" },
+      snippet: {
+        publishedAt: "2023-01-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "100+ Web Development Things you Should Know",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/erEgovG9WBs/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/erEgovG9WBs/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/erEgovG9WBs/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2023-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "cuHDQhDhvPE" },
+      snippet: {
+        publishedAt: "2022-01-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "I built the same app 10 times // Which JS Framework is best?",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/cuHDQhDhvPE/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/cuHDQhDhvPE/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/cuHDQhDhvPE/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2022-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "fBNz5xF-Kx4" },
+      snippet: {
+        publishedAt: "2020-01-25T00:00:00Z",
+        channelId: "UC29ju8bIPH5as8OGnQzwJyA",
+        title: "Node.js Crash Course",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/fBNz5xF-Kx4/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/fBNz5xF-Kx4/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/fBNz5xF-Kx4/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Traversy Media",
+        liveBroadcastContent: "none",
+        publishTime: "2020-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "SmyPTnlqhlk" },
+      snippet: {
+        publishedAt: "2023-12-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "10 weird algorithms",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/SmyPTnlqhlk/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/SmyPTnlqhlk/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/SmyPTnlqhlk/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2023-12-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "QIyc6NKS5J0" },
+      snippet: {
+        publishedAt: "2023-01-25T00:00:00Z",
+        channelId: "UC8ENHE5xdFSwx71u3fDH5Xw",
+        title:
+          "If I could give advice to myself when starting as a software engineer",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/QIyc6NKS5J0/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/QIyc6NKS5J0/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/QIyc6NKS5J0/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "ThePrimeagen",
+        liveBroadcastContent: "none",
+        publishTime: "2023-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "-RCnNyD0L-s" },
+      snippet: {
+        publishedAt: "2020-01-25T00:00:00Z",
+        channelId: "UCFbNIlppjAuEX4znoulh0Cw",
+        title: "Node.js Passport Login System Tutorial",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/-RCnNyD0L-s/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/-RCnNyD0L-s/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/-RCnNyD0L-s/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Web Dev Simplified",
+        liveBroadcastContent: "none",
+        publishTime: "2020-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "pEfrdAtAmqk" },
+      snippet: {
+        publishedAt: "2023-01-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "God-Tier Developer Roadmap",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/pEfrdAtAmqk/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/pEfrdAtAmqk/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/pEfrdAtAmqk/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2023-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "8PhdfcX9tG0" },
+      snippet: {
+        publishedAt: "2023-01-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "I tried 10 code editors",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/8PhdfcX9tG0/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/8PhdfcX9tG0/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/8PhdfcX9tG0/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2023-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "WJRf7dh5Zws" },
+      snippet: {
+        publishedAt: "2023-12-25T00:00:00Z",
+        channelId: "UCbRP3c757lWg9M-U7TyEkXA",
+        title: "JavaScript Framework Tier List",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/WJRf7dh5Zws/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/WJRf7dh5Zws/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/WJRf7dh5Zws/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Theo - t3\u2024gg",
+        liveBroadcastContent: "none",
+        publishTime: "2023-12-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "FQPlEnKav48" },
+      snippet: {
+        publishedAt: "2023-01-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "I built 10 web apps... with 10 different languages",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/FQPlEnKav48/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/FQPlEnKav48/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/FQPlEnKav48/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2023-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "A4_TFHzqAAg" },
+      snippet: {
+        publishedAt: "2023-05-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title:
+          "How to get rich as a solo software developer - The Ultimate Guide",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/A4_TFHzqAAg/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/A4_TFHzqAAg/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/A4_TFHzqAAg/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2023-05-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "PkZNo7MFNFg" },
+      snippet: {
+        publishedAt: "2019-01-25T00:00:00Z",
+        channelId: "UC8butISFwT-Wl7EV0hUK0BQ",
+        title: "Learn JavaScript - Full Course for Beginners",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/PkZNo7MFNFg/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/PkZNo7MFNFg/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/PkZNo7MFNFg/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "freeCodeCamp.org",
+        liveBroadcastContent: "none",
+        publishTime: "2019-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "dWqNgzZwVJQ" },
+      snippet: {
+        publishedAt: "2023-09-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "Bun is disrupting JavaScript land",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/dWqNgzZwVJQ/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/dWqNgzZwVJQ/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/dWqNgzZwVJQ/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2023-09-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "RLtyhwFtXQA" },
+      snippet: {
+        publishedAt: "2019-01-25T00:00:00Z",
+        channelId: "UC8butISFwT-Wl7EV0hUK0BQ",
+        title: "Learn Node.js - Full Tutorial for Beginners",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/RLtyhwFtXQA/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/RLtyhwFtXQA/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/RLtyhwFtXQA/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "freeCodeCamp.org",
+        liveBroadcastContent: "none",
+        publishTime: "2019-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "Sh6lK57Cuk4" },
+      snippet: {
+        publishedAt: "2020-01-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "The Weird History of JavaScript",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/Sh6lK57Cuk4/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/Sh6lK57Cuk4/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/Sh6lK57Cuk4/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2020-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "Sxxw3qtb3_g" },
+      snippet: {
+        publishedAt: "2022-01-25T00:00:00Z",
+        channelId: "UCsBjURrPoezykLs9EqgamOA",
+        title: "How to OVER Engineer a Website // What is a Tech Stack?",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/Sxxw3qtb3_g/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/Sxxw3qtb3_g/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/Sxxw3qtb3_g/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "Fireship",
+        liveBroadcastContent: "none",
+        publishTime: "2022-01-25T00:00:00Z",
+      },
+    },
+    {
+      kind: "youtube#searchResult",
+      id: { kind: "youtube#video", videoId: "XBu54nfzxAQ" },
+      snippet: {
+        publishedAt: "2022-01-25T00:00:00Z",
+        channelId: "UCB6dvaWu0N8uVq2yKsZ5s5g",
+        title: "Backend web development - a complete overview",
+        description: "",
+        thumbnails: {
+          default: {
+            url: "https://i.ytimg.com/vi/XBu54nfzxAQ/default.jpg",
+            width: 120,
+            height: 90,
+          },
+          medium: {
+            url: "https://i.ytimg.com/vi/XBu54nfzxAQ/mqdefault.jpg",
+            width: 320,
+            height: 180,
+          },
+          high: {
+            url: "https://i.ytimg.com/vi/XBu54nfzxAQ/hqdefault.jpg",
+            width: 480,
+            height: 360,
+          },
+        },
+        channelTitle: "SuperSimpleDev",
+        liveBroadcastContent: "none",
+        publishTime: "2022-01-25T00:00:00Z",
+      },
+    },
+  ],
+};
