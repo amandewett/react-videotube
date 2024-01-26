@@ -10,6 +10,7 @@ export default () => (
     sx={{
       borderRadius: 20,
       color: "#0f0f0f",
+      background: "#212121",
       border: "none",
       p: 0,
       pl: 2,
@@ -27,7 +28,14 @@ export default () => (
       sx={{
         width: { xl: 500, l: 450, md: 400 },
         outline: "none",
+        background: "#212121",
         border: "none",
+        color: "white",
+        input: {
+          "&::placeholder": {
+            color: "white",
+          },
+        },
       }}
     />
     <IconButton

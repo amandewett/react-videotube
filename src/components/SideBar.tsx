@@ -21,14 +21,14 @@ export default ({ selectedCategory, setSelectedCategory }: any) => {
             className="category-btn"
             onClick={() => handleSetCategory(category.name)}
             style={{
-              background:
-                category.name === selectedCategory ? "#FC1503" : "white",
+              backgroundColor:
+                category.name === selectedCategory ? "#FC1503" : "#212121",
+              color: "white",
             }}
             key={category.name}
           >
             <span
               style={{
-                color: category.name === selectedCategory ? "white" : "red",
                 marginRight: "15px",
               }}
             >

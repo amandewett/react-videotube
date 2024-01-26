@@ -7,52 +7,67 @@ export default ({
   channelDetails: {
     id: { channelId },
     snippet,
+    statistics,
   },
+  marginTop,
 }: any) => {
-  console.log(JSON.stringify(snippet));
   return (
     <Card
       sx={{
-        width: { md: "320px", xs: "100%" },
-        height: 320,
-        backgroundColor: "transparent",
         boxShadow: "none",
+        backgroundColor: "transparent",
+        borderRadius: "20px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: { xs: "356px", md: "320px" },
+        height: 300,
+        margin: "auto",
+        marginTop,
       }}
     >
       <Link to={channelId ? `/channel/${channelId}` : demoChannelUrl}>
-        <CardMedia
-          component="img"
-          image={snippet?.thumbnails?.high?.url || demoChannelUrl}
+        <CardContent
           sx={{
-            width: 170,
-            height: 170,
-            borderRadius: "50%",
-            margin: "auto",
-            objectFit: "cover",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            textAlign: "center",
+            color: "#fff",
           }}
-        />
-      </Link>
-      <CardContent>
-        <Link to={channelId ? `/channel/${channelId}` : demoChannelUrl}>
+        >
+          <CardMedia
+            component="img"
+            image={snippet?.thumbnails?.high?.url || demoChannelUrl}
+            sx={{
+              borderRadius: "50%",
+              height: "180px",
+              width: "180px",
+              margin: "auto",
+              mb: 2,
+              border: "1px solid #e3e3e3",
+            }}
+          />
+
           <Typography
-            variant="subtitle1"
+            variant="h6"
             fontWeight="bold"
             color="#fff"
-            sx={{ textAlign: "center" }}
+            sx={{ textAlign: "center", fontSize: 14 }}
           >
             {snippet?.title.slice(0, 60) || demoChannelTitle.slice(0, 60)}{" "}
             <CheckCircle sx={{ color: "gray", ml: "5px", fontSize: 12 }} />
           </Typography>
-          <Typography
-            variant="subtitle2"
-            fontWeight="bold"
-            color="gray"
-            sx={{ textAlign: "center" }}
-          >
-            {snippet?.description.slice(0, 60) || demoChannelTitle.slice(0, 60)}
-          </Typography>
-        </Link>
-      </CardContent>
+          {statistics?.subscriberCount && (
+            <Typography
+              sx={{ fontSize: "15px", fontWeight: 500, color: "gray" }}
+            >
+              {parseInt(statistics?.subscriberCount).toLocaleString("en-US")}{" "}
+              Subscribers
+            </Typography>
+          )}
+        </CardContent>
+      </Link>
     </Card>
   );
 };

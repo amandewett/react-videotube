@@ -2,10 +2,11 @@ import { useState, useEffect } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import { SideBar, Videos } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
+import { videos as demoVideos } from "../utils/demo-videos";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState(`NodeJS`);
-  const [videos, setVideos] = useState([]);
+  const [videos, setVideos] = useState<any>([]);
 
   useEffect(() => {
     async function getVideos() {
@@ -15,7 +16,8 @@ const Feed = () => {
       setVideos(data.items);
     }
     // getVideos();
-  }, [fetchFromAPI, selectedCategory]);
+    setVideos(demoVideos);
+  }, [fetchFromAPI, selectedCategory, demoVideos]);
 
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
@@ -43,10 +45,7 @@ const Feed = () => {
           sx={{ color: "white" }}
         >
           {selectedCategory}
-          <span style={{ color: "#f31503" }}>
-            {" "}
-            Videos (https://youtu.be/FHTbsZEJspU?t=5294)
-          </span>
+          <span style={{ color: "#f31503" }}> Videos</span>
         </Typography>
         <Videos videos={videos} />
       </Box>
