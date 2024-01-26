@@ -21,7 +21,7 @@ export default ({
         sx={{
           width: { md: "320px", xs: "100%" },
           height: 320,
-          backgroundColor: "#434343",
+          backgroundColor: "#0f0f0f",
           boxShadow: "none",
         }}
       >

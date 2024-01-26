@@ -4,7 +4,7 @@ import { SideBar, Videos } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 const Feed = () => {
-  const [selectedCategory, setSelectedCategory] = useState(`New`);
+  const [selectedCategory, setSelectedCategory] = useState(`NodeJS`);
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const Feed = () => {
       );
       setVideos(data.items);
     }
-    getVideos();
+    // getVideos();
   }, [fetchFromAPI, selectedCategory]);
 
   return (
@@ -43,7 +43,10 @@ const Feed = () => {
           sx={{ color: "white" }}
         >
           {selectedCategory}
-          <span style={{ color: "#f31503" }}> Videos</span>
+          <span style={{ color: "#f31503" }}>
+            {" "}
+            Videos (https://youtu.be/FHTbsZEJspU?t=5294)
+          </span>
         </Typography>
         <Videos videos={videos} />
       </Box>

@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, ChangeEvent } from "react";
 import { useNavigate } from "react-router-dom";
-import { Paper, IconButton } from "@mui/material";
+import { Paper, IconButton, Input } from "@mui/material";
 import { Search } from "@mui/icons-material";
 
 export default () => (
@@ -9,19 +9,42 @@ export default () => (
     onSubmit={() => {}}
     sx={{
       borderRadius: 20,
-      border: "1px solid #e3e3e3",
-      color: "#fff",
+      color: "#0f0f0f",
+      border: "none",
+      p: 0,
       pl: 2,
       boxShadow: "none",
       mr: { sm: 5 },
     }}
   >
-    <input className="search-bar" placeholder="Search..." onChange={() => {}} />
+    <Input
+      className="search-bar"
+      placeholder="Search..."
+      disableUnderline
+      onChange={(e: ChangeEvent<HTMLInputElement>) =>
+        console.log(e.target.value)
+      }
+      sx={{
+        width: { xl: 500, l: 450, md: 400 },
+        outline: "none",
+        border: "none",
+      }}
+    />
     <IconButton
       type="submit"
       sx={{
-        p: "10px",
-        color: "red",
+        width: 60,
+        p: "12px",
+        color: "white",
+        border: "none",
+        background: "#0f0f0f",
+        borderRadius: 0,
+        borderTopRightRadius: 20,
+        borderBottomRightRadius: 20,
+        mr: -1,
+        ":hover": {
+          backgroundColor: "#0f0f0f",
+        },
       }}
     >
       <Search />

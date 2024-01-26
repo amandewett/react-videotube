@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, Box, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import { logo } from "../utils/constants";
 import SearchBar from "./SearchBar";
@@ -13,7 +13,6 @@ export const NavBar = () => {
         position: "sticky",
         background: "#000",
         top: 0,
-        justifyContent: "space-between",
       }}
     >
       <NavLink
@@ -24,8 +23,24 @@ export const NavBar = () => {
         }}
       >
         <img src={logo} alt="logo" height={45} />
+        <Box
+          sx={{
+            color: "white",
+            ml: 1.5,
+          }}
+        >
+          <Typography variant="h4">VideoTube</Typography>
+        </Box>
       </NavLink>
-      <SearchBar />
+      <Box
+        sx={{
+          width: "100vw",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <SearchBar />
+      </Box>
     </Stack>
   );
 };
