@@ -1,4 +1,4 @@
-import { Box, Typography, Card, CardMedia, CardContent } from "@mui/material";
+import { Typography, Card, CardMedia, CardContent } from "@mui/material";
 import { Link } from "react-router-dom";
 import { demoChannelUrl, demoChannelTitle } from "../utils/constants";
 import { CheckCircle } from "@mui/icons-material";

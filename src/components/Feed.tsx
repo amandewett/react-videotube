@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import { SideBar, Videos } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
-import { videos as demoVideos } from "../utils/demo-videos";
+// import { videos as demoVideos } from "../utils/demo-videos";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState(`NodeJS`);
@@ -17,7 +17,7 @@ const Feed = () => {
     }
     getVideos();
     // setVideos(demoVideos);
-  }, [fetchFromAPI, selectedCategory, demoVideos]);
+  }, [fetchFromAPI, selectedCategory /* demoVideos */]);
 
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>

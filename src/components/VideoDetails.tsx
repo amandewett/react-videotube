@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-import { DEMO_RELATED_VIDEOS, DEMO_VIDEO_DETAILS } from "../utils/demo-videos";
+// import { DEMO_RELATED_VIDEOS, DEMO_VIDEO_DETAILS } from "../utils/demo-videos";
 
 import { Videos, Loader } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";

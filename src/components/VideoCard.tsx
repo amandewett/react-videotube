@@ -6,7 +6,6 @@ import {
   demoVideoUrl,
   demoVideoTitle,
   demoChannelUrl,
-  demoChannelTitle,
 } from "../utils/constants";
 
 export default ({

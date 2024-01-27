@@ -1,6 +1,7 @@
 import { Stack, Box, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
-import { logo } from "../utils/constants";
+// import { logo } from "../utils/constants";
+import appLogo from "../../public/logo.png";
 import SearchBar from "./SearchBar";
 
 export const NavBar = () => {
@@ -23,7 +24,7 @@ export const NavBar = () => {
           background: "#000",
         }}
       >
-        <img src={logo} alt="logo" height={45} />
+        <img src={appLogo} alt="logo" height={45} />
         <Box
           sx={{
             color: "white",

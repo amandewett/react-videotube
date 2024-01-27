@@ -1,0 +1,32 @@
+name: Development CI
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  fetch-env-file:
+    runs-on: [self-hosted, development]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+      - name: Get .env file
+        run: cp -r /root/env_files/videotube/.env /root/actions_runners/videotube-action-runner/_work/react-videotube/react-videotube/
+  build:
+    runs-on: [self-hosted, development]
+    needs: fetch-env-file
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm install --save
+      - run: npm run build
+      - name: Remove previous build
+        run: if [ -d "/root/frontend_applications/clones/videotube/" ]; then rm -r /root/frontend_applications/clones/videotube/*; fi
+      - name: Move new build
+        run: ls && cd dist && mv -f * /root/frontend_applications/clones/videotube/

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Typography, Box } from "@mui/material";
 import { useParams } from "react-router-dom";
-import { videos as demoVideos } from "../utils/demo-videos";
+// import { videos as demoVideos } from "../utils/demo-videos";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 import { Videos } from "./";
 
@@ -16,7 +16,7 @@ export default () => {
     };
     fetchResults();
     // setVideoz(demoVideos);
-  }, [searchTerm, demoVideos]);
+  }, [searchTerm /* demoVideos */]);
 
   return (
     <Box p={2} minHeight="95vh">
