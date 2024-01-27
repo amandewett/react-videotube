@@ -13,7 +13,10 @@ const Feed = () => {
       const data = await fetchFromAPI(
         `search?part=snippet&q=${selectedCategory}`
       );
-      setVideos(data.items);
+      //remove playlists
+      setVideos(
+        data.items.filter((i: any) => i.id.kind !== "youtube#playlist")
+      );
     }
     getVideos();
     // setVideos(demoVideos);

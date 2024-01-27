@@ -12,7 +12,9 @@ export default () => {
   useEffect(() => {
     const fetchResults = async () => {
       const result = await fetchFromAPI(`search?part=snippet&q=${searchTerm}`);
-      setVideoz(result.items);
+      setVideoz(
+        result.items.filter((i: any) => i.id.kind !== "youtube#playlist")
+      );
     };
     fetchResults();
     // setVideoz(demoVideos);

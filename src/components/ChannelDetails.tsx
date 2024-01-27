@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Box } from "@mui/material";
 import { Videos, ChannelCard } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
-import { CHANNED_VIDEOS, CHANNEL_DETAILS } from "../utils/demo-channel-details";
+// import { CHANNED_VIDEOS, CHANNEL_DETAILS } from "../utils/demo-channel-details";
 
 const ChannelDetails = () => {
   const { id: channelId } = useParams();
@@ -12,7 +12,7 @@ const ChannelDetails = () => {
 
   useEffect(() => {
     const fetchResults = async () => {
-      fetchFromAPI(`channel?part=snippet&id=${channelId}`).then((data) =>
+      fetchFromAPI(`channels?part=snippet&id=${channelId}`).then((data) =>
         setChannelDetails(data?.items[0])
       );
 
@@ -23,7 +23,7 @@ const ChannelDetails = () => {
     fetchResults();
     // setChannelDetails(CHANNEL_DETAILS.items[0]);
     // setVideos(CHANNED_VIDEOS.items);
-  }, [channelId, CHANNEL_DETAILS, CHANNED_VIDEOS]);
+  }, [channelId]);
 
   return (
     <Box minHeight="95vh">

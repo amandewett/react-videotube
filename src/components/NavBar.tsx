@@ -1,7 +1,7 @@
 import { Stack, Box, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
 // import { logo } from "../utils/constants";
-import appLogo from "../../public/logo.png";
+import appLogo from "../assets/logo.png";
 import SearchBar from "./SearchBar";
 
 export const NavBar = () => {
