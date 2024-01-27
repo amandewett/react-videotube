@@ -9,7 +9,7 @@ import {
 } from "./components";
 
 export default () => (
-  <BrowserRouter basename={"/clones/videotube"}>
+  <BrowserRouter basename={"/samples/videotube"}>
     <Box sx={{ backgroundColor: "#000" }}>
       <NavBar />
       <Box sx={{ pt: 10 }}>

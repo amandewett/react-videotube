@@ -27,6 +27,6 @@ jobs:
       - run: npm install --save
       - run: npm run build
       - name: Remove previous build
-        run: if [ -d "/root/frontend_applications/clones/videotube/" ]; then rm -r /root/frontend_applications/clones/videotube/*; fi
+        run: if [ -d "/root/frontend_applications/samples/videotube/" ]; then rm -r /root/frontend_applications/samples/videotube/*; fi
       - name: Move new build
-        run: ls && cd dist && mv -f * /root/frontend_applications/clones/videotube/
+        run: ls && cd dist && mv -f * /root/frontend_applications/samples/videotube/
