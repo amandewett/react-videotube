@@ -1,8 +1,8 @@
 # VideoTube (YouTube clone)
 
-## React + MaterialUI + RapidAPI + Tytpescript
+## React + MaterialUI + RapidAPI + TypeScript
 
-It is a YouTube clone using React and MaterialUI in TypeSscript.
+It is a YouTube clone using React and MaterialUI in TypeScript.
 
 Requirements
 
